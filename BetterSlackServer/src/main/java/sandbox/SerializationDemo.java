@@ -1,7 +1,5 @@
-package Sandbox;
+package sandbox;
 
-import com.fasterxml.jackson.annotation.*;
-import com.fasterxml.jackson.core.*;
 import com.fasterxml.jackson.databind.*;
 import com.fasterxml.jackson.datatype.jsr310.*;
 
@@ -20,7 +18,7 @@ public class SerializationDemo{
 
 
         Message deserialized = objectMapper.readValue(serialized,Message.class);
-        System.out.println(deserialized.getTimestamp());
+        System.out.println(deserialized.getContent());
         System.out.println(deserialized.getTimestamp());
     }
 

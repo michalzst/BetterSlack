@@ -1,4 +1,4 @@
-import Sandbox.ServerExemple;
+import sandbox.ServerExemple;
 
 import java.io.IOException;
 
